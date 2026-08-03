@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.16)
-project(aimee_module_protocols VERSION 0.3.0 LANGUAGES NONE)
+project(aimee_module_protocols VERSION 0.3.1 LANGUAGES NONE)
 include(GNUInstallDirs)
 install(DIRECTORY src/ DESTINATION ${CMAKE_INSTALL_DATADIR}/aimee/sources/protocols/src)
 install(DIRECTORY docs/ DESTINATION ${CMAKE_INSTALL_DATADIR}/aimee/sources/protocols/docs)
