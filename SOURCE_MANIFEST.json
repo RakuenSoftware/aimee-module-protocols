@@ -10,7 +10,7 @@
   "principal_class": null,
   "principal_ref": null,
   "stages": [],
-  "source_sha256": "65da1746afe4438236fb298d9d753f4ae2a3d326edfd06ce12395faf8a129699",
+  "source_sha256": "ea1bafe0f93149c534e1792b1f13b583c250b73f5b572de30dc831f27e1336af",
   "owned_files": [
     "src/modules/protocols/module.yaml",
     "src/modules/protocols/acp/acp_server.c",
