@@ -1,0 +1,39 @@
+{
+  "schema_version": 1,
+  "module": "protocols",
+  "classification": "required",
+  "execution": "core",
+  "placements": [
+    "server",
+    "kb"
+  ],
+  "principal_class": null,
+  "principal_ref": null,
+  "stages": [],
+  "source_sha256": "65da1746afe4438236fb298d9d753f4ae2a3d326edfd06ce12395faf8a129699",
+  "owned_files": [
+    "src/modules/protocols/module.yaml",
+    "src/modules/protocols/acp/acp_server.c",
+    "src/modules/protocols/mcp/mcp_client.c",
+    "src/modules/protocols/mcp/mcp_client_registry.c",
+    "src/modules/protocols/mcp/mcp_skill_tools.c",
+    "src/modules/protocols/mcp/mcp_tool_profile.c",
+    "src/modules/protocols/mcp/mcp_tools.c",
+    "src/modules/protocols/mcp/mcp_tools_extended.c",
+    "src/modules/protocols/mcp/mcp_tools_gateway.c",
+    "src/modules/protocols/mcp/mcp_skill_tools.h",
+    "src/modules/protocols/mcp/mcp_tools_gateway.h",
+    "src/modules/protocols/include/aimee/protocols/acp/acp_server.h",
+    "src/modules/protocols/include/aimee/protocols/mcp/mcp_client.h",
+    "src/modules/protocols/include/aimee/protocols/mcp/mcp_client_registry.h",
+    "src/modules/protocols/include/aimee/protocols/mcp/mcp_tools.h",
+    "src/tests/test_acp_server.c",
+    "src/tests/test_mcp_client.c",
+    "src/tests/test_mcp_client_integration.c",
+    "src/tests/test_mcp_client_registry.c",
+    "src/tests/test_mcp_client_sse.c",
+    "src/tests/test_mcp_gateway_tools.c",
+    "src/tests/test_mcp_native_surface.c",
+    "docs/modules/protocols.md"
+  ]
+}
